@@ -1,0 +1,210 @@
+#profile-picture{
+    width: 250px;
+    height: 300px;
+    position: absolute;
+position: absolute;
+top: 15px;
+left: 25px;
+}
+
+.pistu{
+    background-color:#111317;
+    width: 300px;
+    height: 330px;
+    position: absolute;
+    box-shadow: 4px 4px 9px 1px rgba(228, 228, 228, 0.74);
+-webkit-box-shadow: 4px 4px 9px 1px  rgba(228, 228, 228, 0.74);
+-moz-box-shadow: 4px 4px 9px 1px  rgba(228, 228, 228, 0.74);
+    top: 140px;
+    right: 4%;
+    
+}
+.last-item{
+position: absolute;
+top: 500px;
+left: 45px;
+}
+.ll{
+    background-color: #181A1E;
+}
+.head11{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    position: relative;
+    right: 28px;
+    color: white;
+    
+    bottom: 5px;
+    padding-bottom: 20px;
+}
+.second-nav > ul{
+    list-style-type: decimal-leading-zero;
+    color: #848786;
+}
+.second-nav> ul > li > a{
+    color: #848786;
+}
+.second-nav> ul > li > a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+ 
+@media screen and  (min-width:0px) and   (max-width:766px) {
+
+    
+    
+    #name-head{
+    font-size: 2rem;
+    }
+    #name-head2{
+        font-size: 1rem;
+    }
+}
+@media screen and  (min-width:0px) and   (max-width:696px) {
+
+
+
+
+    .box-1{
+        height: 1100px;
+    }
+
+
+    .last-item{
+        position: absolute;
+top: 900px;
+left: 45px;
+    }
+    .pistu{position: absolute;
+        top: 480px;
+        left:4%;
+    }
+    
+}
+
+
+@media screen and (min-width:0px)  and (max-width: 627px) {
+
+
+
+
+  }
+
+  .wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.yui{
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    align-content: center;
+    background-color: royalblue;
+    color: white;
+    width: 600px;
+    border-bottom: 1px solid white;
+    height: 200px;
+    border-radius: 50px;
+    margin-bottom: 13px;
+}
+
+.yui > a {
+    text-align: center;
+    color: red;
+    text-decoration: none;
+    
+}
+#vp{
+    font-size: 3rem;
+}
+.tt{
+display: flex;
+flex-direction: column;
+justify-items: center;
+align-items: center;
+position: absolute;
+left: 200px;
+top: 80px;
+}
+.tt > span{
+    font-size: 1.6rem;
+    color: white;
+}
+.tt > a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    margin-bottom: 3px;
+}
+.tt > a:hover{
+    color: red;
+}
+.gjh{
+    position: absolute;
+    left: 240px;
+top: 80px;
+}
+#assd{
+    color: white;
+}
+.fa-bars{
+    display: none;
+}
+.fa-times{
+    display: none;
+}
+
+@media screen  and (max-width:627px) {
+    .fa-bars{
+        display: block;
+        position: relative;
+        top: 7px;
+        right: 10px;
+    }
+
+    .realnav{
+        padding-top: 100px;
+        display: none;
+    }
+.fa-times{
+    display: block;
+    position: absolute;
+    top: 17px;
+    left: 130px;
+}
+    #evl{
+        border: 0.1px solid white;
+        display: block;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        text-align: center;
+        z-index: 1;
+    
+    }
+    #evl > li {
+     background-color: #181A1E;
+     color: white;
+     border-bottom: 2px solid white;
+        padding: 20px 10px;
+        width: 150px;
+    }
+    #evl > li:nth-child(5){
+        border-bottom: none;
+    }
+
+
+}
+
+
+
+  
+.vaer{
+    display: block;
+}

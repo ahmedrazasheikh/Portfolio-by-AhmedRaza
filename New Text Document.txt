@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style2.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <span id="vp" >All Projects</span>
+    <div class="yui" >
+        <div class="tt gjh">
+       
+    </div>
+    </div>
+    <div class="yui" >
+        <div class="tt">
+        <span>Firebase</span>
+        <a href="https://console.firebase.google.com/u/0/">Click Here Account 1</a>
+        <a href="https://console.firebase.google.com/u/3/">Click Here Account 2<a>
+    </div>
+    </div>
+    <div class="yui" >
+        <div class="tt">
+        <span id="assd">Netlify</span>
+        <a href="https://app.netlify.com/teams/ahmedrazagithub/sites">Click Here Account 1</a>
+        <a href="https://app.netlify.com/teams/bhaia9036/sites">Click Here Account 2</a>
+    </div>
+    </div>
+
+
+
+</div>
+</body>
+</html>
